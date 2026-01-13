@@ -1,4 +1,23 @@
-# IntelliJ Platform Plugin Template
+# MustacheNewFile Plugin
+
+[![Build](https://img.shields.io/badge/build-passing-brightgreen)]()
+[![IntelliJ Platform](https://img.shields.io/badge/IntelliJ-2025.2.4-blue)](https://www.jetbrains.com/idea/)
+[![Kotlin](https://img.shields.io/badge/Kotlin-2.1.20-purple)](https://kotlinlang.org/)
+
+## Overview
+
+MustacheNewFile is an IntelliJ IDEA plugin that adds support for creating Mustache template files (`.mustache`) directly from the IDE's "New File" menu.
+
+## Features
+
+- ✅ **Mustache File Type Support**: Recognizes `.mustache` files with custom icon
+- ✅ **File Templates**: Pre-configured template when creating new Mustache files
+- ✅ **Kotlin K2 Compatible**: Fully compatible with Kotlin K2 compiler mode
+- ✅ **IntelliJ 2025.2.4**: Built for the latest IntelliJ Platform
+
+## Installation
+
+### From Source
 
 [![Twitter Follow](https://img.shields.io/badge/follow-%40JBPlatform-1DA1F2?logo=twitter)](https://twitter.com/JBPlatform)
 [![Developers Forum](https://img.shields.io/badge/JetBrains%20Platform-Join-blue)][jb:forum]
@@ -70,6 +89,15 @@ the [intellij-platform-gradle-plugin][gh:intellij-platform-gradle-plugin-docs].
 You can also upload the plugin to the [JetBrains Plugin Repository](https://plugins.jetbrains.com/plugin/upload)
 manually via UI.
 
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+- Built with [IntelliJ Platform SDK](https://plugins.jetbrains.com/docs/intellij)
+- Uses [IntelliJ Platform Gradle Plugin](https://plugins.jetbrains.com/docs/intellij/tools-intellij-platform-gradle-plugin.html)
+
 ## Useful links
 
 - [IntelliJ Platform SDK Plugin SDK][docs]
@@ -79,6 +107,19 @@ manually via UI.
 - [IntelliJ Platform UI Guidelines][jb:ui-guidelines]
 - [JetBrains Marketplace Paid Plugins][jb:paid-plugins]
 - [IntelliJ SDK Code Samples][gh:code-samples]
+
+## Changelog
+
+### Version 1.0-SNAPSHOT
+- Initial release
+- Mustache file type support
+- File template provider
+- Custom icon for `.mustache` files
+- Kotlin K2 compatibility
+
+---
+
+**Made with ❤️ for the IntelliJ Community**
 
 [docs]: https://plugins.jetbrains.com/docs/intellij
 
@@ -115,4 +156,4 @@ manually via UI.
 [jb:ipe]: https://jb.gg/ipe
 
 [jb:ui-guidelines]: https://jetbrains.github.io/ui
-# MustacheNewFile
+
